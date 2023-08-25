@@ -7,8 +7,8 @@ export default function Tool(props: any) {
                 src={props.src} 
                 alt={props.alt} 
                 className="h-16 w-16"
-                height={144}
-                width={144}
+                height={72}
+                width={72}
             />
             <figcaption className="text-center">{props.caption}</figcaption>
         </figure>

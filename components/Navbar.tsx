@@ -72,12 +72,7 @@ export default function NavBar() {
                 </Typography>
                 <div className="flex items-center gap-4">
                     <div className="mr-4 hidden lg:block">{navLinks}</div>
-                    <Button
-                    variant="gradient"
-                    size="sm"
-                    className="hidden lg:inline-block"
-                    >
-                    </Button>
+                    
                     <IconButton
                     variant="text"
                     className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"

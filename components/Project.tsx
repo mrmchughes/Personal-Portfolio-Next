@@ -2,16 +2,24 @@ import Link from 'next/link';
 import Image from "next/image";
 import Icon from "@mdi/react";
 import { mdiArrowTopRightBoldBox } from "@mdi/js";
+import {
+  Card,
+  CardHeader,
+  CardBody,
+  CardFooter,
+  Typography,
+  Button,
+} from "@material-tailwind/react";
 
 export default function Project(props: any) {
     return (
       <div className="shadow-md bg-gray-50 p-2.5">
         <Image
             src={props.src}
-            className="w-full h-36 mb-2"
+            className=""
             alt=""
-            height={144}
-            width={144}
+            height={72}
+            width={72}
         />
         
         <div>
